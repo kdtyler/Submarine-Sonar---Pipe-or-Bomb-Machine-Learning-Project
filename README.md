@@ -1,1 +1,3 @@
-# Submarine-Sonar---Pipe-or-Bomb-Machine-Learning-Project
+# Submarine Sonar - Rock or Mine
+
+This project takes in sonar data and information about whether a particular object is a rock or a mine, and uses standard machine learning techniques to train to be able to detect if a future object is a rock or mine. Principle Component Analysis (PCA) is used, as well as several common machine learning models in the sklearn library such as perceptron, logistic regression, support vector machine (Linear and rbf), decision tree, random forest, and k-nearest neighbor. Accuracy scores are used to determine the best method of training, with K-nearest neighbors being most accurate at 86% success rate of a correct prediction. 
